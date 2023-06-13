@@ -1034,6 +1034,14 @@ export const Showcases = [
     getstarted: "https://docs.gomaestro.org/",
     tags: ["http", "hosted"]
   },
+  {
+    title: "Hydra",
+    description: "Hydra Head protocol",
+    preview: require("./builder-tools/hydra.png"),
+    website: "https://hydra.family/head-protocol/",
+    getstarted: "https://hydra.family/head-protocol/docs/getting-started",
+    tags: ["haskell", "cli", "http" ]
+  },
 ];
 
 export const TagList = Object.keys(Tags);
